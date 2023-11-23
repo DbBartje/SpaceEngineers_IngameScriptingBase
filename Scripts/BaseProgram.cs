@@ -44,6 +44,8 @@ namespace Scripts.BaseProgram // change 'BaseProgram' to the name of the script 
         public IMyProgrammableBlock Me { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public IMyGridProgramRuntimeInfo Runtime { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Storage { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Func<IMyIntergridCommunicationSystem> IGC_ContextGetter { set => throw new NotImplementedException(); }
+
         //public void Save() => throw new NotImplementedException();
         //public void Main(string argument) => throw new NotImplementedException();
         //public void Main(string argument, UpdateType updateSource) => throw new NotImplementedException();
